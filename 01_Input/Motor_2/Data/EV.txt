@@ -1,0 +1,4 @@
+Motor type: EV
+Manufacturer: AH-G
+Country: Hungary
+City: Gyor

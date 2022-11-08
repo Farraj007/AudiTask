@@ -1,0 +1,5 @@
+Name: Worker Wanda
+Title: Python test
+Manufacturer: Audi Hungaria Zrt.
+Country: Hungary
+City: Gyor

@@ -1,0 +1,8 @@
+et-xmlfile==1.1.0
+lxml==4.9.1
+openpyxl==3.0.10
+Pillow==9.3.0
+pkg_resources==0.0.0
+python-pptx==0.6.21
+regex==2022.10.31
+XlsxWriter==3.0.3
