@@ -32,4 +32,7 @@ as you can see between lines 113-138 this is me trying to copy the content of th
 So yeah there is the excel file which is produced during the program but it not used because of the problem mentioned above so i did the table using pptx library . 
 
 
+>Every variable in the pptx table is dynamic ,height of teh table and number of slides.
+
+
 **This was done with python 3.8**
