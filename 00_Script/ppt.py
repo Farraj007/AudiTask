@@ -7,11 +7,12 @@ from tkinter import Tk
 from tkinter.filedialog import SaveFileDialog
 # import win32com.client 
 # from win32com.client import constants as c
+import promptlib
+
 
 
 now = datetime.datetime.now()
 time_now=now.strftime("%d/%m/%Y %H:%M:%S")
-#'Python_test_template.pptx'
 prs = Presentation()
   
 lines = {}
@@ -185,11 +186,20 @@ for motor in motors_list:
 
 
 
-#taking the path from the user  
-Tk().withdraw() 
-filepath = SaveFileDialog()
-prs.save(f'{filepath}/Python_test_template.pptx')
-#taking the path from the user  
+#taking the path from the user
+## trial 1
+# Tk().withdraw() 
+# filepath = SaveFileDialog()
+## trial 2
+# prompter = promptlib.Files()
+
+# dir = prompter.dir()
+# file = prompter.file()
+
+
+prs.save('Python_test_template.pptx')
+#taking the path from the user 
+## trial 3 
 # from tkinter import *
 # from tkinter import filedialog
 
