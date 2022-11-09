@@ -143,7 +143,6 @@ header_values=['Motor Types ','Manufacturer','Country','city']
 counter=0
 for i in header_values:
     cell = table.cell(0, counter)
-    print(cell)
     # cell.margin_left(Cm(0.5))
     # cell.margin_top(Cm(0.5))
     cell.text= i
